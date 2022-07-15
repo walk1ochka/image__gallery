@@ -1,3 +1,117 @@
 * {
     box-sizing: border-box;
 }
+
+html, body{
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.white{
+    background-color: white;
+    fill: #1B065E;
+    color: #1B065E;
+    border: #1B065E;
+}
+.header {
+    flex: 1 0 auto;
+    padding: 10px 20px;
+    box-shadow: 0 0px 10px 3px rgba(0, 0, 0, 0.6); 
+    z-index: 100;
+    border-bottom: solid 4px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.6);
+}
+.container {
+    max-width: 1440px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+
+}
+.header__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 50px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.item-left{
+    display: flex;
+    align-items: center;
+}
+.h2__title {
+    margin-left: 20px;
+}
+.main {
+    padding-top: 20px;
+    flex: 1 0 auto;
+    background-color: white;
+}
+.footer {
+    flex: 0 0 auto;
+    height: 200px;
+    background-color: #08021b;
+    border-top: solid 1px;
+}
+
+.input {
+    height: 50px;
+    width: 400px;
+    border: 1px solid #1B065E;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.img__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.img__item{
+    height: 400px;
+    width: 680px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.left__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.radio__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+    margin-right: 20px;
+}
+
+.btn__switch {
+    background-color: transparent;
+    border: none;
+    color: #1B065E;
+    font-weight: 600;
+    font-size: 25px;
+}
+.btn__switch-active {
+    color: rgb(202, 11, 11) !important;
+    text-shadow: 1px 1px black;
+}
+
+.black{
+    background-color: #08021b;
+    fill: #fcb023f1;
+    color: #fcb023f1;
+    border: #fcb023f1;
+}
